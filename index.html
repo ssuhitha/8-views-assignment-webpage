@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Rainbow School Nellore</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div class="topbar">
+  <a href="#">Safety &amp; Wellness</a>
+  <a href="#">Come work with us</a>
+  <a href="#">Parent portal</a>
+</div>
+
+
+<header>
+  <nav class="navbar">
+    <a href="#" class="nav-logo">
+     
+      <img src="images/logo.png" alt="Rainbow School logo" width="52" height="52" style="object-fit:contain;border-radius:6px"/>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="#">About Us <span class="nav-arrow">▾</span></a></li>
+      <li><a href="#">Learning <span class="nav-arrow">▾</span></a></li>
+      <li><a href="#admissions">Admissions <span class="nav-arrow">▾</span></a></li>
+      <li><a href="#">Explore <span class="nav-arrow">▾</span></a></li>
+      <li><a href="#">The Buzz <span class="nav-arrow">▾</span></a></li>
+      <li><a href="#">Quick links <span class="nav-arrow">▾</span></a></li>
+    </ul>
+
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile dropdown -->
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#">About Us</a>
+    <a href="#">Learning</a>
+    <a href="#admissions">Admissions</a>
+    <a href="#">Explore</a>
+    <a href="#">The Buzz</a>
+    <a href="#">Quick links</a>
+  </nav>
+</header>
+
+
+<section class="hero">
+  <img class="hero-img" src="images/campus-aerial.png" alt="Rainbow School Campus" />
+  <div class="hero-overlay"></div>
+</section>
+
+
+<div class="side-actions">
+  <a href="#contact" class="side-btn apply">APPLY</a>
+  <a href="#contact" class="side-btn visit">VISIT</a>
+</div>
+
+
+<section class="stats-section reveal">
+  <h2>Rainbow at a Glance</h2>
+  <div class="stats-grid">
+
+    <div class="stat-item reveal reveal-delay-1">
+      <span class="stat-number" data-count="20" data-suffix="+">0+</span>
+      <span class="stat-label">Teacher : Student</span>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-1">
+      <span class="stat-number" data-count="1400" data-suffix=" +">0 +</span>
+      <span class="stat-label">Happy Students</span>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-2">
+      <span class="stat-number" data-count="10" data-suffix="+">0+</span>
+      <span class="stat-label">Acres of Green Campus</span>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-2">
+      <span class="stat-number" data-count="40" data-suffix="+">0+</span>
+      <span class="stat-label">Sports &amp; Clubs</span>
+    </div>
+
+    <div class="stat-item reveal reveal-delay-3">
+      <span class="stat-number" data-count="100" data-suffix="+">0+</span>
+      <span class="stat-label">Cultural Events Yearly</span>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="campus-section" id="campus">
+  <div class="section-inner">
+    <div class="campus-layout">
+
+      <!-- Left: text -->
+      <div class="campus-text reveal">
+        <h2>A Campus That Inspires</h2>
+        <p>
+          Set across <strong>ten acres</strong> of open, green space,
+          Rainbow's eco-friendly campus is designed to spark imagination
+          and discovery. From bright, collaborative classrooms to modern
+          science and innovation labs, every corner inspires curiosity
+          and purposeful learning. Surrounded by nature, students thrive
+          in an environment that promotes balance, focus, and well-being.
+        </p>
+      </div>
+
+      
+      <div class="reveal reveal-delay-1">
+        <div class="campus-photos">
+          <div class="campus-photo">
+            <img src="images/campus1.jpg" alt="Campus exterior" />
+          </div>
+          <div class="campus-photo">
+            <img src="images/campus2.jpg" alt="Indoor corridor" />
+          </div>
+          <div class="campus-photo">
+            <img src="images/campus3.png" alt="Terrace area" />
+          </div>
+        </div>
+
+        <div class="view-more-wrap">
+          <a href="#" class="btn-view-more">View more</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="why-section reveal" id="why">
+  <div class="section-inner">
+    <h2>Why You'll Love Rainbow</h2>
+
+    <!-- Tabs -->
+    <div class="tab-group">
+      <button class="tab-pill" data-tab="parent">Parent</button>
+      <button class="tab-pill active" data-tab="student">Student</button>
+      <button class="tab-pill" data-tab="faculty">Faculty</button>
+    </div>
+
+    <!-- Student panel -->
+    <div class="tab-panel active" id="panel-student">
+      <div class="video-row" id="carousel-student">
+
+        <div class="video-card">
+          <!--
+            To embed a real YouTube video replace the thumb div with:
+            <iframe src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen></iframe>
+          -->
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div>
+              <strong>Rainbow PEPtalk</strong><br>
+              <small>On the Verge of Extinction</small>
+            </div>
+          </div>
+          <div class="video-info">
+            <div class="tag">Rainbow School Nellore</div>
+            Alayna Huq · Grade 4 Tulip
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div>
+              <strong>Student Spotlight</strong><br>
+              <small>Science &amp; Innovation</small>
+            </div>
+          </div>
+          <div class="video-info">
+            <div class="tag">Rainbow School Nellore</div>
+            Student Presentation
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div>
+              <strong>Sports Day 2024</strong><br>
+              <small>Highlights</small>
+            </div>
+          </div>
+          <div class="video-info">
+            <div class="tag">Rainbow School Nellore</div>
+            Annual Sports Day
+          </div>
+        </div>
+
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div>
+              <strong>Cultural Fest</strong><br>
+              <small>Best Moments</small>
+            </div>
+          </div>
+          <div class="video-info">
+            <div class="tag">Rainbow School Nellore</div>
+            Utsav 2024
+          </div>
+        </div>
+
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" onclick="scrollCarousel('student', -1)">&#8249;</button>
+        <button class="carousel-arrow active-arrow" onclick="scrollCarousel('student', 1)">&#8250;</button>
+      </div>
+    </div>
+
+    
+    <div class="tab-panel" id="panel-parent">
+      <div class="video-row" id="carousel-parent">
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div><strong>Parent Testimonial</strong><br><small>What parents say</small></div>
+          </div>
+          <div class="video-info"><div class="tag">Rainbow School Nellore</div>Parent Reviews</div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div><strong>PTM Highlights</strong><br><small>Building bridges together</small></div>
+          </div>
+          <div class="video-info"><div class="tag">Rainbow School Nellore</div>Parent-Teacher Meet</div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" onclick="scrollCarousel('parent', -1)">&#8249;</button>
+        <button class="carousel-arrow active-arrow" onclick="scrollCarousel('parent', 1)">&#8250;</button>
+      </div>
+    </div>
+
+    
+    <div class="tab-panel" id="panel-faculty">
+      <div class="video-row" id="carousel-faculty">
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div><strong>Faculty at Rainbow</strong><br><small>Teaching with passion</small></div>
+          </div>
+          <div class="video-info"><div class="tag">Rainbow School Nellore</div>Our Teachers</div>
+        </div>
+        <div class="video-card">
+          <div class="video-thumb">
+            <div class="play-circle">▶</div>
+            <div><strong>Professional Development</strong><br><small>Growing as educators</small></div>
+          </div>
+          <div class="video-info"><div class="tag">Rainbow School Nellore</div>Faculty Growth</div>
+        </div>
+      </div>
+      <div class="carousel-controls">
+        <button class="carousel-arrow" onclick="scrollCarousel('faculty', -1)">&#8249;</button>
+        <button class="carousel-arrow active-arrow" onclick="scrollCarousel('faculty', 1)">&#8250;</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+<section class="contact-section reveal" id="contact">
+  <div class="contact-inner">
+
+    <!-- Left: form -->
+    <div class="contact-left">
+      <span class="sparkle-icon">✦ ✦</span>
+      <h2>What Would You Like to Know About Our School?</h2>
+
+      <form class="enquiry-form" id="enquiryForm" novalidate>
+
+        <input
+          type="text"
+          id="fullName"
+          name="fullName"
+          placeholder="Full name"
+          autocomplete="name"
+          required
+        />
+
+        <input
+          type="tel"
+          id="mobile"
+          name="mobile"
+          placeholder="Mobile number"
+          autocomplete="tel"
+          maxlength="10"
+          required
+        />
+
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          autocomplete="email"
+          required
+        />
+
+        <select id="grade" name="grade" required>
+          <option value="" disabled selected>Grade</option>
+          <option value="Nursery">Nursery</option>
+          <option value="LKG">LKG</option>
+          <option value="UKG">UKG</option>
+          <option value="Grade 1">Grade 1</option>
+          <option value="Grade 2">Grade 2</option>
+          <option value="Grade 3">Grade 3</option>
+          <option value="Grade 4">Grade 4</option>
+          <option value="Grade 5">Grade 5</option>
+          <option value="Grade 6">Grade 6</option>
+          <option value="Grade 7">Grade 7</option>
+          <option value="Grade 8">Grade 8</option>
+          <option value="Grade 9">Grade 9</option>
+          <option value="Grade 10">Grade 10</option>
+        </select>
+
+        <button type="submit" class="btn-submit" id="submitBtn">Submit</button>
+
+        <div class="form-msg" id="successMsg"></div>
+        <div class="form-msg" id="errorMsg"></div>
+
+      </form>
+    </div>
+
+    
+    <div class="contact-image-wrap reveal reveal-delay-1">
+      <img src="images/child-swing.jpg" alt="Happy student at Rainbow School" />
+    </div>
+
+  </div>
+</section>
+
+
+<footer>
+  <p>
+    <strong>Rainbow School Nellore</strong> &nbsp;·&nbsp;
+    Inspiring young minds &nbsp;·&nbsp;
+    <a href="tel:+918008888888">+91 800 888 8888</a>
+  </p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
